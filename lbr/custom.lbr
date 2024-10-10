@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -149,7 +149,6 @@
 <rectangle x1="-0.2795" y1="0.6225" x2="0.2795" y2="1.3465" layer="29"/>
 <rectangle x1="-1.2295" y1="-1.346" x2="-0.6705" y2="-0.6225" layer="29"/>
 <rectangle x1="0.6705" y1="-1.346" x2="1.2295" y2="-0.6225" layer="29"/>
-<rectangle x1="-0.2795" y1="0.6225" x2="0.2795" y2="1.3465" layer="29"/>
 <rectangle x1="-0.2795" y1="0.6225" x2="0.2795" y2="1.3465" layer="31"/>
 <rectangle x1="-1.2295" y1="-1.346" x2="-0.6705" y2="-0.6225" layer="31"/>
 <rectangle x1="0.6705" y1="-1.346" x2="1.2295" y2="-0.6225" layer="31"/>

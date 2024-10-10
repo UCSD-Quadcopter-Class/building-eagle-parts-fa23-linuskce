@@ -274,7 +274,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="RED-LED" prefix="D" uservalue="yes">
+<deviceset name="LED" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RED-LED" x="0" y="0"/>
 </gates>
@@ -294,7 +294,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="N-CHANNEL-MOSFET" prefix="Q" uservalue="yes">
+<deviceset name="MOSFET" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="MOSFET" x="0" y="0"/>
 </gates>
@@ -315,7 +315,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM6DSOXTR-IMU" prefix="U" uservalue="yes">
+<deviceset name="IMU" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LSM6DSOXTR-IMU" x="0" y="0"/>
 </gates>
